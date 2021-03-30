@@ -1,5 +1,9 @@
 // node template.js < A-small.in > A-small.out
 
+// nextInt(): read integer
+// next(): read string
+// readline(): read whole line
+
 function main() {
     var tests = 1;
     tests = nextInt();
