@@ -9,6 +9,7 @@ import (
 var (
 	in  = bufio.NewReader(os.Stdin)
 	out = bufio.NewWriter(os.Stdout)
+	err = bufio.NewWriter(os.Stderr)
 )
 
 func solve(t int) {
@@ -57,9 +58,20 @@ func readString() string {
 // PRINT
 func print(args ...interface{}) {
 	fmt.Fprint(out, args...)
+	out.Flush()
 }
 
 func println(args ...interface{}) {
 	fmt.Fprintln(out, args...)
 	out.Flush()
+}
+
+func printErr(args ...interface{}) {
+	fmt.Fprint(err, args...)
+	err.Flush()
+}
+
+func printlnErr(args ...interface{}) {
+	fmt.Fprintln(err, args...)
+	err.Flush()
 }
