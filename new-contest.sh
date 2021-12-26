@@ -1,15 +1,15 @@
-echo -n "Enter contest's path (e.g. \"Codeforces/635div2\"): "
+echo "Enter contest's path (e.g. \"Codeforces/635div2\"): "
 read CONTEST
 
-mkdir -p $CONTEST
-cp -R template/* $CONTEST
+mkdir -p src/$CONTEST
+cp -R template/* src/$CONTEST
 
-cd $CONTEST
+cd src/$CONTEST
 echo
 echo "Created contest directory $CONTEST !"
-echo "Run ./new to create new solution."
-echo "Run ./run to run solution."
+echo "Run \`./new\` to create new solution."
+echo "Run \`./run a.go\` to run solution."
 echo "Happy coding !"
 echo
 echo "To move to contest directory, run this:"
-echo "cd $CONTEST"
+echo "cd src/$CONTEST"

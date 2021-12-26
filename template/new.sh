@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo -n "Enter programming language (cpp or js): "
+echo "Enter programming language (cpp or js): "
 read LANG
 
-echo -n "Enter problem's name: "
+echo "Enter problem's name: "
 read NAME
 
-echo -n "Is this an interactive solution (\"y\" for yes, anything else for no)? "
+echo "Is this an interactive solution (\"y\" for yes, anything else for no)? "
 read INTERACTIVE
 
 cp templates/template.$LANG $NAME.$LANG
