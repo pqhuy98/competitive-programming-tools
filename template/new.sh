@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter programming language (cpp or js): "
+echo "Enter programming language (\"cpp\", \"go\", or \"js\"): "
 read LANG
 
 echo "Enter problem's name: "
