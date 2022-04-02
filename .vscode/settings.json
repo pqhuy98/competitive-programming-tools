@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "unordered_set": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "utility": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "random": "cpp",
+        "unordered_map": "cpp"
+    }
+}
