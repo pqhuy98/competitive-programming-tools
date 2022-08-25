@@ -9,7 +9,6 @@ echo
 echo "Created contest directory $CONTEST !"
 echo "Run \`./new\` to create new solution."
 echo "Run \`./run a.go\` to run solution."
-echo "Happy coding !"
-echo
-echo "To move to contest directory, run this:"
-echo "cd src/$CONTEST"
+echo "Happy coding!"
+echo "New shell session is created at this contest's directory. Type \`exit\` to command line to exit this session."
+$SHELL
