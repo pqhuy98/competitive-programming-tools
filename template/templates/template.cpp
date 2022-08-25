@@ -4,11 +4,13 @@ using namespace std;
 
 class Solver {
   int n, m;
-  vector<vector<int>> a = vector<vector<int>>(n, vector<int>(m, 0));
+  vector<vector<int>> a;
 
  public:
   void solve(int test) {
     cin >> n >> m;
+    a = vector<vector<int>>(n, vector<int>(m, 0));
+
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < m; j++) {
         cin >> a[i][j];
